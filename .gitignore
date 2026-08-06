@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# YOLO Cache Files
+*.cache
+data/train.cache
+data/val.cache
+
+# YOLO Outputs (keep weights, exclude predictions/validation outputs)
+runs/classify/predict/
+runs/classify/val/
+
+# Generated Files
+static/overlays/*
+!static/overlays/.gitkeep
+predictions.json
+
+# Base Model (downloads automatically, don't commit)
+yolov8n-cls.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+
+# Optional: Uncomment to exclude training data from version control
+# data/train/
+# data/val/
+
